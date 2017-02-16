@@ -204,7 +204,7 @@ class Component
 
   belongs_to :component
   belongs_to :person
-  belongs_to :component
+  belongs_to :component, optional: true
   belongs_to :manufacturer
 
   field :serialNumber, type: String
